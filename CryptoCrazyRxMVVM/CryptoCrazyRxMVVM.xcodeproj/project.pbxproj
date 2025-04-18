@@ -6,6 +6,12 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		05475A045A7AD15855AF81ED /* Pods_CryptoCrazyRxMVVMTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E248F86B1F8B7B7DCC702009 /* Pods_CryptoCrazyRxMVVMTests.framework */; };
+		4FBB7DDF9892DF9DCA88E019 /* Pods_CryptoCrazyRxMVVM_CryptoCrazyRxMVVMUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CECBE4F9D21EE0F738020795 /* Pods_CryptoCrazyRxMVVM_CryptoCrazyRxMVVMUITests.framework */; };
+		56E2DC36AAD658A80ACF8F22 /* Pods_CryptoCrazyRxMVVM.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4EE89409DE5C4B6D8AC5E1DC /* Pods_CryptoCrazyRxMVVM.framework */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		B6E26D3F2DB1C21000F6B3FC /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -24,27 +30,23 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1D27C8DADB64DE0AB1F401FA /* Pods-CryptoCrazyRxMVVMTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CryptoCrazyRxMVVMTests.release.xcconfig"; path = "Target Support Files/Pods-CryptoCrazyRxMVVMTests/Pods-CryptoCrazyRxMVVMTests.release.xcconfig"; sourceTree = "<group>"; };
+		220686527E4F589336D3A9BB /* Pods-CryptoCrazyRxMVVM-CryptoCrazyRxMVVMUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CryptoCrazyRxMVVM-CryptoCrazyRxMVVMUITests.release.xcconfig"; path = "Target Support Files/Pods-CryptoCrazyRxMVVM-CryptoCrazyRxMVVMUITests/Pods-CryptoCrazyRxMVVM-CryptoCrazyRxMVVMUITests.release.xcconfig"; sourceTree = "<group>"; };
+		2EA4225FF42F4888D4E21242 /* Pods-CryptoCrazyRxMVVM-CryptoCrazyRxMVVMUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CryptoCrazyRxMVVM-CryptoCrazyRxMVVMUITests.debug.xcconfig"; path = "Target Support Files/Pods-CryptoCrazyRxMVVM-CryptoCrazyRxMVVMUITests/Pods-CryptoCrazyRxMVVM-CryptoCrazyRxMVVMUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		4EE89409DE5C4B6D8AC5E1DC /* Pods_CryptoCrazyRxMVVM.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CryptoCrazyRxMVVM.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6EDD2B8A0265699F53AAB1C2 /* Pods-CryptoCrazyRxMVVM.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CryptoCrazyRxMVVM.release.xcconfig"; path = "Target Support Files/Pods-CryptoCrazyRxMVVM/Pods-CryptoCrazyRxMVVM.release.xcconfig"; sourceTree = "<group>"; };
+		748A65EF7F5F0BD0562D8EFA /* Pods-CryptoCrazyRxMVVM.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CryptoCrazyRxMVVM.debug.xcconfig"; path = "Target Support Files/Pods-CryptoCrazyRxMVVM/Pods-CryptoCrazyRxMVVM.debug.xcconfig"; sourceTree = "<group>"; };
+		A936F26D6CBD6875CEF6DFBB /* Pods-CryptoCrazyRxMVVMTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CryptoCrazyRxMVVMTests.debug.xcconfig"; path = "Target Support Files/Pods-CryptoCrazyRxMVVMTests/Pods-CryptoCrazyRxMVVMTests.debug.xcconfig"; sourceTree = "<group>"; };
 		B6E26D282DB1C20E00F6B3FC /* CryptoCrazyRxMVVM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CryptoCrazyRxMVVM.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6E26D3E2DB1C21000F6B3FC /* CryptoCrazyRxMVVMTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CryptoCrazyRxMVVMTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6E26D482DB1C21000F6B3FC /* CryptoCrazyRxMVVMUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CryptoCrazyRxMVVMUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CECBE4F9D21EE0F738020795 /* Pods_CryptoCrazyRxMVVM_CryptoCrazyRxMVVMUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CryptoCrazyRxMVVM_CryptoCrazyRxMVVMUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E248F86B1F8B7B7DCC702009 /* Pods_CryptoCrazyRxMVVMTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CryptoCrazyRxMVVMTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		B6E26D502DB1C21000F6B3FC /* Exceptions for "CryptoCrazyRxMVVM" folder in "CryptoCrazyRxMVVM" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				Info.plist,
-			);
-			target = B6E26D272DB1C20E00F6B3FC /* CryptoCrazyRxMVVM */;
-		};
-/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		B6E26D2A2DB1C20E00F6B3FC /* CryptoCrazyRxMVVM */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				B6E26D502DB1C21000F6B3FC /* Exceptions for "CryptoCrazyRxMVVM" folder in "CryptoCrazyRxMVVM" target */,
-			);
 			path = CryptoCrazyRxMVVM;
 			sourceTree = "<group>";
 		};
@@ -61,17 +63,11 @@
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		B6E26D252DB1C20E00F6B3FC /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		B6E26D3B2DB1C21000F6B3FC /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				05475A045A7AD15855AF81ED /* Pods_CryptoCrazyRxMVVMTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,19 +75,43 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4FBB7DDF9892DF9DCA88E019 /* Pods_CryptoCrazyRxMVVM_CryptoCrazyRxMVVMUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6E26D762DB1D66000F6B3FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56E2DC36AAD658A80ACF8F22 /* Pods_CryptoCrazyRxMVVM.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9C0BD467D0165ABA422E4CE7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				748A65EF7F5F0BD0562D8EFA /* Pods-CryptoCrazyRxMVVM.debug.xcconfig */,
+				6EDD2B8A0265699F53AAB1C2 /* Pods-CryptoCrazyRxMVVM.release.xcconfig */,
+				2EA4225FF42F4888D4E21242 /* Pods-CryptoCrazyRxMVVM-CryptoCrazyRxMVVMUITests.debug.xcconfig */,
+				220686527E4F589336D3A9BB /* Pods-CryptoCrazyRxMVVM-CryptoCrazyRxMVVMUITests.release.xcconfig */,
+				A936F26D6CBD6875CEF6DFBB /* Pods-CryptoCrazyRxMVVMTests.debug.xcconfig */,
+				1D27C8DADB64DE0AB1F401FA /* Pods-CryptoCrazyRxMVVMTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		B6E26D1F2DB1C20E00F6B3FC = {
 			isa = PBXGroup;
 			children = (
 				B6E26D2A2DB1C20E00F6B3FC /* CryptoCrazyRxMVVM */,
 				B6E26D412DB1C21000F6B3FC /* CryptoCrazyRxMVVMTests */,
 				B6E26D4B2DB1C21000F6B3FC /* CryptoCrazyRxMVVMUITests */,
+				B6E26D732DB1D10800F6B3FC /* Frameworks */,
 				B6E26D292DB1C20E00F6B3FC /* Products */,
+				9C0BD467D0165ABA422E4CE7 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -105,6 +125,16 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		B6E26D732DB1D10800F6B3FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4EE89409DE5C4B6D8AC5E1DC /* Pods_CryptoCrazyRxMVVM.framework */,
+				CECBE4F9D21EE0F738020795 /* Pods_CryptoCrazyRxMVVM_CryptoCrazyRxMVVMUITests.framework */,
+				E248F86B1F8B7B7DCC702009 /* Pods_CryptoCrazyRxMVVMTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -112,9 +142,10 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B6E26D512DB1C21000F6B3FC /* Build configuration list for PBXNativeTarget "CryptoCrazyRxMVVM" */;
 			buildPhases = (
+				C06544882A75A259CDAACAD3 /* [CP] Check Pods Manifest.lock */,
 				B6E26D242DB1C20E00F6B3FC /* Sources */,
-				B6E26D252DB1C20E00F6B3FC /* Frameworks */,
-				B6E26D262DB1C20E00F6B3FC /* Resources */,
+				B6E26D762DB1D66000F6B3FC /* Frameworks */,
+				2401D5E41EF708C059C483FC /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -124,8 +155,6 @@
 				B6E26D2A2DB1C20E00F6B3FC /* CryptoCrazyRxMVVM */,
 			);
 			name = CryptoCrazyRxMVVM;
-			packageProductDependencies = (
-			);
 			productName = CryptoCrazyRxMVVM;
 			productReference = B6E26D282DB1C20E00F6B3FC /* CryptoCrazyRxMVVM.app */;
 			productType = "com.apple.product-type.application";
@@ -134,9 +163,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B6E26D562DB1C21000F6B3FC /* Build configuration list for PBXNativeTarget "CryptoCrazyRxMVVMTests" */;
 			buildPhases = (
+				4E7843B307AE1502F908B5E1 /* [CP] Check Pods Manifest.lock */,
 				B6E26D3A2DB1C21000F6B3FC /* Sources */,
 				B6E26D3B2DB1C21000F6B3FC /* Frameworks */,
 				B6E26D3C2DB1C21000F6B3FC /* Resources */,
+				04E7D58FC797559D4F102014 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -147,8 +178,6 @@
 				B6E26D412DB1C21000F6B3FC /* CryptoCrazyRxMVVMTests */,
 			);
 			name = CryptoCrazyRxMVVMTests;
-			packageProductDependencies = (
-			);
 			productName = CryptoCrazyRxMVVMTests;
 			productReference = B6E26D3E2DB1C21000F6B3FC /* CryptoCrazyRxMVVMTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
@@ -157,9 +186,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B6E26D592DB1C21000F6B3FC /* Build configuration list for PBXNativeTarget "CryptoCrazyRxMVVMUITests" */;
 			buildPhases = (
+				E7F4BEDF15FD1DC0C6C615D5 /* [CP] Check Pods Manifest.lock */,
 				B6E26D442DB1C21000F6B3FC /* Sources */,
 				B6E26D452DB1C21000F6B3FC /* Frameworks */,
 				B6E26D462DB1C21000F6B3FC /* Resources */,
+				AC65AC16703664A9FDB90086 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -170,8 +201,6 @@
 				B6E26D4B2DB1C21000F6B3FC /* CryptoCrazyRxMVVMUITests */,
 			);
 			name = CryptoCrazyRxMVVMUITests;
-			packageProductDependencies = (
-			);
 			productName = CryptoCrazyRxMVVMUITests;
 			productReference = B6E26D482DB1C21000F6B3FC /* CryptoCrazyRxMVVMUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
@@ -221,13 +250,6 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		B6E26D262DB1C20E00F6B3FC /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		B6E26D3C2DB1C21000F6B3FC /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -243,6 +265,126 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		04E7D58FC797559D4F102014 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CryptoCrazyRxMVVMTests/Pods-CryptoCrazyRxMVVMTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CryptoCrazyRxMVVMTests/Pods-CryptoCrazyRxMVVMTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CryptoCrazyRxMVVMTests/Pods-CryptoCrazyRxMVVMTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2401D5E41EF708C059C483FC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CryptoCrazyRxMVVM/Pods-CryptoCrazyRxMVVM-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CryptoCrazyRxMVVM/Pods-CryptoCrazyRxMVVM-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CryptoCrazyRxMVVM/Pods-CryptoCrazyRxMVVM-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4E7843B307AE1502F908B5E1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CryptoCrazyRxMVVMTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AC65AC16703664A9FDB90086 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CryptoCrazyRxMVVM-CryptoCrazyRxMVVMUITests/Pods-CryptoCrazyRxMVVM-CryptoCrazyRxMVVMUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CryptoCrazyRxMVVM-CryptoCrazyRxMVVMUITests/Pods-CryptoCrazyRxMVVM-CryptoCrazyRxMVVMUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CryptoCrazyRxMVVM-CryptoCrazyRxMVVMUITests/Pods-CryptoCrazyRxMVVM-CryptoCrazyRxMVVMUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C06544882A75A259CDAACAD3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CryptoCrazyRxMVVM-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E7F4BEDF15FD1DC0C6C615D5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CryptoCrazyRxMVVM-CryptoCrazyRxMVVMUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		B6E26D242DB1C20E00F6B3FC /* Sources */ = {
@@ -284,12 +426,14 @@
 /* Begin XCBuildConfiguration section */
 		B6E26D522DB1C21000F6B3FC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 748A65EF7F5F0BD0562D8EFA /* Pods-CryptoCrazyRxMVVM.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = H84WUS4V8F;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = CryptoCrazyRxMVVM/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -312,12 +456,14 @@
 		};
 		B6E26D532DB1C21000F6B3FC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6EDD2B8A0265699F53AAB1C2 /* Pods-CryptoCrazyRxMVVM.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = H84WUS4V8F;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = CryptoCrazyRxMVVM/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -459,6 +605,7 @@
 		};
 		B6E26D572DB1C21000F6B3FC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A936F26D6CBD6875CEF6DFBB /* Pods-CryptoCrazyRxMVVMTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -478,6 +625,7 @@
 		};
 		B6E26D582DB1C21000F6B3FC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1D27C8DADB64DE0AB1F401FA /* Pods-CryptoCrazyRxMVVMTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -497,6 +645,7 @@
 		};
 		B6E26D5A2DB1C21000F6B3FC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2EA4225FF42F4888D4E21242 /* Pods-CryptoCrazyRxMVVM-CryptoCrazyRxMVVMUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -514,6 +663,7 @@
 		};
 		B6E26D5B2DB1C21000F6B3FC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 220686527E4F589336D3A9BB /* Pods-CryptoCrazyRxMVVM-CryptoCrazyRxMVVMUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
